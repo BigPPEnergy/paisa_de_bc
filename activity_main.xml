@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0A6685"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/homeButton"
+        android:layout_width="53dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="340dp"
+        android:layout_marginLeft="340dp"
+        android:layout_marginTop="24dp"
+        android:background="#00FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_home_black_24dp" />
+
+    <TextView
+        android:id="@+id/mainMessage"
+        android:layout_width="309dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="51dp"
+        android:layout_marginLeft="51dp"
+        android:layout_marginTop="343dp"
+        android:layout_marginEnd="51dp"
+        android:layout_marginRight="51dp"
+        android:layout_marginBottom="344dp"
+        android:gravity="center"
+        android:text="Fees successfully paid"
+        android:textColor="#E1D7D7"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/Receipt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="156dp"
+        android:layout_marginLeft="156dp"
+        android:layout_marginTop="156dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_receipt_black_24dp" />
+
+    <ImageView
+        android:id="@+id/tickMark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="235dp"
+        android:layout_marginLeft="235dp"
+        android:layout_marginTop="236dp"
+        android:layout_marginEnd="140dp"
+        android:layout_marginRight="140dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_done_black_24dp" />
+
+    <TextView
+        android:id="@+id/smallMessage"
+        android:layout_width="229dp"
+        android:layout_height="79dp"
+        android:layout_marginStart="91dp"
+        android:layout_marginLeft="91dp"
+        android:layout_marginTop="372dp"
+        android:layout_marginEnd="91dp"
+        android:layout_marginRight="91dp"
+        android:layout_marginBottom="280dp"
+        android:gravity="center"
+        android:text="Your ward's fees have been paid successfully"
+        android:textColor="#E1D7D7"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="130dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="139dp"
+        android:layout_marginLeft="139dp"
+        android:layout_marginTop="467dp"
+        android:layout_marginEnd="142dp"
+        android:layout_marginRight="142dp"
+        android:layout_marginBottom="204dp"
+        android:background="@drawable/button"
+        android:text="Pay other fees"
+        android:textAllCaps="false"
+        android:textColor="#0A6685"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
